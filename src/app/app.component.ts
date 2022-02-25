@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Web3Service } from './services/web3.service';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'angular-test-dapp';
+  constructor(
+      private web3Service: Web3Service,
+  ) {
+    this.web3Service.bootstrapWeb3();
+  }
 }
