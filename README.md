@@ -1,5 +1,6 @@
 # О проекте
 Пример изменения состояния переменной в смарт-контракте блокчейна ethereum.
+Полезное расширение "Blockchain Development Kit for Ethereum" для работы с solidity в VScode: https://marketplace.visualstudio.com/items?itemName=AzBlockchain.azure-blockchain
 
 ## Сборка
 
